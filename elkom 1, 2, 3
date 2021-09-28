@@ -1,0 +1,42 @@
+### ELKOM 1 ###
+# -*- coding: utf-8 -*-
+Created on Wed Sep 22 08:28:58 2021
+
+@author: acer
+"""
+ 
+print("        @            @@@@@@@@@     @@@@@@@@@@@       @           @     @                ")
+print("       @ @           @        @    @          @      @           @     @                ")
+print("      @   @          @        @    @           @     @           @     @                ")
+print("     @     @         @        @    @            @    @           @     @                ")
+print("    @       @        @@@@@@@@@@    @            @    @           @     @                ")
+print("   @@@@@@@@@@@       @        @    @            @    @           @     @                ")
+print("  @           @      @        @    @           @     @           @     @                ")
+print(" @             @     @        @    @          @      @           @     @                ")
+print("@               @    @@@@@@@@@     @@@@@@@@@@@       @@@@@@@@@@@@@     @@@@@@@@@@@@   ")
+
+### ELKOM 2 ###
+# -*- coding: utf-8 -*-
+"""
+Created on Wed Sep 22 08:28:58 2021
+
+@author: acer
+"""
+
+import math
+
+a=input("Masukkan Titik koordinat A : ")
+
+p1 = a.split(",")
+
+b=input("Masukkan Titik koordinat B : ")
+
+p2 = b.split(",")
+
+jarak = math.sqrt( ((int(p1[0])-int(p2[0]))**2)+((int(p1[1])-int(p2[1]))**2) )
+
+print("Jarak antara ", a,"dan", b, "adalah",jarak)
+
+### ELKOM 3 ###
+name1 = input("masukkan kata :")
+print(name1.upper())
